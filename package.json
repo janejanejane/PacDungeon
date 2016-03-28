@@ -4,7 +4,9 @@
   "readme": "README.md",
   "repository": "https://github.com/zerojuan/PacDungeon",
   "version": "0.0.1",
+  "main": "src/index.js",
   "dependencies": {
+    "app-root-dir": "^1.0.2",
     "phaser": "^2.4.4",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"
@@ -12,6 +14,7 @@
   "devDependencies": {
     "bower": "*",
     "del": "*",
+    "electron-prebuilt": "^0.37.2",
     "file-loader": "^0.8.5",
     "gulp": "*",
     "gulp-babel": "^5.2.0",
