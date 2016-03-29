@@ -4,12 +4,13 @@
   "readme": "README.md",
   "repository": "https://github.com/zerojuan/PacDungeon",
   "version": "0.0.1",
-  "main": "src/index.js",
+  "main": "index.js",
   "dependencies": {
     "app-root-dir": "^1.0.2",
     "phaser": "^2.4.4",
     "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+    "webpack-dev-server": "^1.14.0",
+    "webpack-target-electron-renderer": "^0.4.0"
   },
   "devDependencies": {
     "bower": "*",
@@ -41,6 +42,7 @@
     "post-install": "node ./node_modules/bower/bin/bower install",
     "start": "node ./node_modules/gulp/bin/gulp.js",
     "build": "node ./node_modules/gulp/bin/gulp.js build",
-    "lint": "node ./node_modules/gulp/bin/gulp.js lint"
+    "lint": "node ./node_modules/gulp/bin/gulp.js lint",
+    "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached"
   }
 }
