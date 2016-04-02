@@ -23,6 +23,7 @@ app.on( 'ready', function() {
 
     mainWindow = new BrowserWindow({ width: WIDTH, height: HEIGHT });
     mainWindow.setMinimumSize( WIDTH, HEIGHT );
+    mainWindow.setResizable( false );
     mainWindow.loadURL( file );
 //    mainWindow.webContents.openDevTools();
     mainWindow.setMenu( null );
