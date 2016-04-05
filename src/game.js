@@ -12,7 +12,7 @@ function Game() {
   that = this;
   this.debug = true;
   this.livesLeft = 1;
-  this.offset = new Phaser.Point( -30, -30 );
+  this.offset = new Phaser.Point( -80, -70 );
   this.map = null;
   this.layers = [];
   this.layer = null;
